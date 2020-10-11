@@ -1,7 +1,7 @@
 import styles from './index.css';
 
 export default function() {
-  var abddd = 1;
+  const abcdde = 1;
   return (
     <div>
       111
