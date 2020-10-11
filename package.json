@@ -26,7 +26,7 @@
     "umi-plugin-react": "^1.8.4"
   },
   "lint-staged": {
-    "*.{js,jsx}": ["eslint --fix", "git add"]
+    "*.{js,jsx}": ["eslint --fix", "prettier --write", "git add"]
   },
   "engines": {
     "node": ">=8.0.0"
