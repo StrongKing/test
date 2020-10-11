@@ -5,6 +5,7 @@
     "build": "umi build",
     "test": "umi test",
     "lint": "eslint {src,mock,tests}/**/*.{js,jsx} --fix",
+    "prettier": "prettier --write",
     "precommit": "lint-staged"
   },
   "dependencies": {
