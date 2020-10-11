@@ -21,12 +21,17 @@
     "eslint-plugin-react": "^7.11.1",
     "husky": "^0.14.3",
     "lint-staged": "^7.2.2",
+    "prettier": "^2.1.2",
     "react-test-renderer": "^16.7.0",
     "umi": "^2.7.7",
     "umi-plugin-react": "^1.8.4"
   },
   "lint-staged": {
-    "*.{js,jsx}": ["eslint --fix", "prettier --write", "git add"]
+    "*.{js,jsx}": [
+      "eslint --fix",
+      "prettier --write",
+      "git add"
+    ]
   },
   "engines": {
     "node": ">=8.0.0"

@@ -2,6 +2,6 @@
   "extends": "eslint-config-umi",
   "rules": {
     // enable additional rules
-    "no-unused-vars": 1
+    "no-unused-vars": 1 //警告  2//报错
   }
   }
